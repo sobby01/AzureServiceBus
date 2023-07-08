@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ServiceBusReceiver
+namespace ServiceBusFunc
 {
     public class Content
     {

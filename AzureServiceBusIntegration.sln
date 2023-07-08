@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusIntegration", "AzureServiceBusIntegration\AzureServiceBusIntegration.csproj", "{EECA00E8-04DF-455C-ACA0-8981039919C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusReceiver", "ServiceBusReceiver\ServiceBusReceiver.csproj", "{FEA1AAD9-07DC-415C-A2F3-07217A4876FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusFunc", "ServiceBusFunc\ServiceBusFunc.csproj", "{318A0FB8-7BAB-4CB5-BA5E-9BD063EE928B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FEA1AAD9-07DC-415C-A2F3-07217A4876FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA1AAD9-07DC-415C-A2F3-07217A4876FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA1AAD9-07DC-415C-A2F3-07217A4876FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318A0FB8-7BAB-4CB5-BA5E-9BD063EE928B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318A0FB8-7BAB-4CB5-BA5E-9BD063EE928B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318A0FB8-7BAB-4CB5-BA5E-9BD063EE928B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318A0FB8-7BAB-4CB5-BA5E-9BD063EE928B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
